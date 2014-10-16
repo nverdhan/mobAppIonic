@@ -3,10 +3,46 @@
 	margin-bottom: 0px !important;
 }
 
+.seltestbody.ng-hide-remove{
+	-webkit-animation:0.3s show;
+  	animation:0.3s show;
+}
+
+.seltestbody.ng-hide-add{
+	-webkit-animation:0.3s hide;
+  	animation:0.3s hide;
+}
+@keyframes hide {
+  from { 	height: -104px;
+  			margin-bottom: 20px;
+  			padding-bottom: 1px; }
+  to { 	height: 0px; 
+  		margin-bottom: 0px;
+  		padding-bottom: 0px;}
+}
+@-webkit-keyframes hide {
+ from { height: -104px; 
+ 		margin-bottom: 20px;
+ 		padding-bottom: 1px;}
+  to { 	height: 0px; 
+  		margin-bottom: 0px;
+  		padding-bottom: 0px;}
+}
+@keyframes show {
+ from { height: 20px; }
+  to { height: 106px; }
+}
+@-webkit-keyframes show {
+  from { height: 20px; }
+  to { height: 106px; }
+}
 .seltestbody{
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
+	height: 106px;
+	padding-top: 0px;
+
 }
 .seltestopt{
 	border-left-width: 1px;

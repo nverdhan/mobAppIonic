@@ -39,7 +39,7 @@
            </div>
            <div ng-repeat = "test in tests | orderBy:'id'">
               <a class="button button-full button-large icon-right ion-chevron-right button-royal seltesthead" ng-click="showTestBody(test.id)">{{test.name}}</a>
-              <div class="card seltestbody slide-out-bottom" ng-show = "test.selected">
+              <div class="card seltestbody" animation ="slide-out-bottom" ng-show = "test.selected">
                 <div class="row">
                   <div class="col">
                     <button class="button button-full button-outline button-royal seltestopt">
