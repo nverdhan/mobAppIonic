@@ -1,1 +1,16 @@
 /* Empty. Add your own CSS if you like */
+.seltesthead{
+	margin-bottom: 0px !important;
+}
+
+.seltestbody{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.seltestopt{
+	border-left-width: 1px;
+	border-right-width: 1px;
+	margin-left: 2px;
+	margin-right: 2px;
+}

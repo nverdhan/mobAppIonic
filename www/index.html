@@ -33,12 +33,27 @@
       </ion-header-bar>
       <ion-content>
 
-        <div class="list list-inset">
+        <div class="list list-inset" ng-controller="SelectTestController">
            <div class="item item-divider padding-vertical">
               <center> Select Test </center>
            </div>
-            <a class="button button-full button-large icon-right ion-chevron-right button-royal ">Word Gym: GRE</a>
-            <a class="button button-full button-large icon-right ion-chevron-right button-royal ">Word Gym: CAT</a>
+           <div ng-repeat = "test in tests | orderBy:'id'">
+              <a class="button button-full button-large icon-right ion-chevron-right button-royal seltesthead" ng-click="showTestBody(test.id)">{{test.name}}</a>
+              <div class="card seltestbody slide-out-bottom" ng-show = "test.selected">
+                <div class="row">
+                  <div class="col">
+                    <button class="button button-full button-outline button-royal seltestopt">
+                      Random
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button class="button button-full button-outline button-royal seltestopt">
+                      Friend
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
 
         <div class="list">
