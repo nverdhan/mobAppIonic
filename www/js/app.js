@@ -19,12 +19,11 @@ angular.module('mobAppIonic', ['ionic'])
 })
 
 .controller("SelectTestController", function($scope){
-  // Variables
+  // Data
   $scope.tests = [
                   {id: 0, name: 'Word Gym: GRE', selected: false},
                   {id: 1, name: 'Word Gym: CAT', selected: false}
   ];
-  $scope.selectedTest = -1;
   // Functions
   $scope.showTestBody = function(id){ // show dropdown when test is clicked
     for(var i = 0; i < $scope.tests.length; i++){

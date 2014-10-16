@@ -29,11 +29,11 @@
   		padding-bottom: 0px;}
 }
 @keyframes show {
- from { height: 20px; }
+ from { height: 0px; }
   to { height: 87px; }
 }
 @-webkit-keyframes show {
-  from { height: 20px; }
+  from { height: 0px; }
   to { height: 87px; }
 }
 .seltestbody{
