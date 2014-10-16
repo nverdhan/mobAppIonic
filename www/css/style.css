@@ -13,7 +13,7 @@
   	animation:0.3s hide;
 }
 @keyframes hide {
-  from { 	height: -104px;
+  from { 	height: -87px;
   			margin-bottom: 20px;
   			padding-bottom: 1px; }
   to { 	height: 0px; 
@@ -21,7 +21,7 @@
   		padding-bottom: 0px;}
 }
 @-webkit-keyframes hide {
- from { height: -104px; 
+ from { height: -87px; 
  		margin-bottom: 20px;
  		padding-bottom: 1px;}
   to { 	height: 0px; 
@@ -30,17 +30,17 @@
 }
 @keyframes show {
  from { height: 20px; }
-  to { height: 106px; }
+  to { height: 87px; }
 }
 @-webkit-keyframes show {
   from { height: 20px; }
-  to { height: 106px; }
+  to { height: 87px; }
 }
 .seltestbody{
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	height: 106px;
+	height: 87px;
 	padding-top: 0px;
 
 }
